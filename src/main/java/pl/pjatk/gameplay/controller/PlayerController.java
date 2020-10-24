@@ -10,7 +10,7 @@ import pl.pjatk.gameplay.service.PlayerService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/player")
+@RequestMapping("/player") //dzięki temu jak wyszukujemy w internecie znajduje nam to co jest pod playerem
 public class PlayerController {
 
     private PlayerService playerService;
